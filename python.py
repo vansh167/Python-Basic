@@ -20,3 +20,8 @@ str1 = "vansh\t"
 str2 = "dhiman"
 final = str1+str2
 print(final)
+
+sr1 = "Vansh"
+sr2 = "Dhiman"
+lenth = len(sr1)
+print(lenth)
