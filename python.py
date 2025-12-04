@@ -28,7 +28,27 @@
 
 # ================================indexing======================   str[0]
 
-str1 = "HAllo"
+# str1 = "HAllo"
 
-print(str1[1:3])
+# print(str1[- 3:-1])
 
+# ===================================Practice Questions ===================
+
+
+# name = input("Enter Your Name :")
+# # str1 = len(name)
+# print(len(name))
+
+
+
+# =====================================conditions
+
+age = 15
+if(age >= 18):
+    print("Can Vote")
+
+# elif(17 == 17):
+#     print("Almost There")
+else:
+    print("Cannot Vote Yet")
+print(age)
