@@ -16,12 +16,19 @@
 # str1 = "This is a string.\ntdbjkwnbdkjwqndkldmqwld"  \n   \t
 # print(str1)
 
-str1 = "vansh\t"
-str2 = "dhiman"
-final = str1+str2
-print(final)
+# str1 = "vansh\t"
+# str2 = "dhiman"
+# final = str1+str2
+# print(final)
 
-sr1 = "Vansh"
-sr2 = "Dhiman"
-lenth = len(sr1)
-print(lenth)
+# sr1 = "Vansh"
+# sr2 = "Dhiman"
+# lenth = len(sr1)
+# print(lenth)
+
+# ================================indexing======================   str[0]
+
+str1 = "HAllo"
+
+print(str1[1:3])
+
