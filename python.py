@@ -41,14 +41,44 @@
 
 
 
-# =====================================conditions
+# # =====================================conditions
 
-age = 15
-if(age >= 18):
-    print("Can Vote")
+# age = 15
+# if(age >= 18):
+#     print("Can Vote")
 
-# elif(17 == 17):
-#     print("Almost There")
-else:
-    print("Cannot Vote Yet")
-print(age)
+
+# else:
+#     print("Cannot Vote Yet")
+# print(age)
+
+
+# ===========================nestng=
+# age = 18
+# if(age >= 18):
+#     if(age >= 80):
+#         print("You are too old to vote")
+#     else:
+#         print("Can drive")
+# else:
+#     print("Cannot Vote Yet")
+# print(age)
+
+# # ======================================= QQ
+
+# num = int(input("Enter a number :"))
+
+# if(num % 7 == 0):
+#     print("Even Number")
+# else:
+#     print("odd Number")
+
+# ==========================================
+
+marks = [23,23,43,12,55]
+print(marks)
+# print(marks[0:2]) 
+
+
+student = ["vansh", 35,]
+print(student[1])
