@@ -76,9 +76,10 @@
 # ==========================================
 
 marks = [23,23,43,12,55]
-print(marks)
+
 # print(marks[0:2]) 
-
-
-student = ["vansh", 35,]
-print(student[1])
+marks.sort()
+marks.reverse()
+print(marks)
+# student = ["vansh", 35,]
+# print(student[1])
