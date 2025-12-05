@@ -117,6 +117,26 @@
 
 # ===================================== 
 
-grade = ["A","F","B","C","E","D"]
-grade.sort()
-print(grade[2:4])
+# grade = ["A","F","B","C","E","D"]
+# grade.sort()
+# print(grade[2:4])
+
+
+
+
+# ==================================== lecture 4
+
+info = {
+    "key" : "value",
+    "hi" : {
+    "name" : "Vansh",
+    "age" : 19,
+    "marks" : [99,45,67]}
+}
+print(info.values())
+
+
+
+collection = {"hello", "hi", "hey", "hello", "hi"} 
+print(collection.union())
+print(collection.intersection())
