@@ -75,11 +75,32 @@
 
 # ==========================================
 
-marks = [23,23,43,12,55]
+# marks = [23,23,43,12,55]
 
-# print(marks[0:2]) 
-marks.sort()
-marks.reverse()
-print(marks)
-# student = ["vansh", 35,]
-# print(student[1])
+# # print(marks[0:2]) 
+
+# marks.append(99)
+# marks.sort()
+
+# print(marks)
+# # student = ["vansh", 35,]
+# # print(student[1])
+# # ============================================tuple=
+
+# tup = (92,1,3,1,3,4,5)
+
+# print(tup.count(1))
+
+
+# ================================= Questions
+movies = []
+movie1 = input("Enter your favourite movie :")
+movie2 = input("Enter your favourite movie :")
+movie3 = input("Enter your favourite movie :")
+ 
+movies.append(movie1)
+movies.append(movie2)
+movies.append(movie3)
+
+
+print(movies)
