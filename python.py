@@ -93,14 +93,30 @@
 
 
 # ================================= Questions
-movies = []
-movie1 = input("Enter your favourite movie :")
-movie2 = input("Enter your favourite movie :")
-movie3 = input("Enter your favourite movie :")
+# movies = []
+# movie1 = input("Enter your favourite movie :")
+# movie2 = input("Enter your favourite movie :")
+# movie3 = input("Enter your favourite movie :")
  
-movies.append(movie1)
-movies.append(movie2)
-movies.append(movie3)
+# movies.append(movie1)
+# movies.append(movie2)
+# movies.append(movie3)
 
 
-print(movies)
+# print(movies)
+
+# ================================== Palindrom
+# string = [1,2,3]
+# string2 = [1,2,3]
+# string2.reverse()
+# if(string == string2[::-1]):
+#     print("Palindrom")
+# else :
+#     print("Not a Palindrom")
+
+
+# ===================================== 
+
+grade = ["A","F","B","C","E","D"]
+grade.sort()
+print(grade[2:4])
