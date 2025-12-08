@@ -24,3 +24,14 @@ v = 1
 while v <= 10:
     print(i, "X", v, "=", i * v)
     v += 1
+
+
+# Q4 print name numbers  in list to simple 
+  
+
+nums = [1,4,9,16,25,36,49,64,81,100]
+heros = ["Ironman","Thor","Hulk","CaptainAmerica","BlackWidow ","Hawkeye"]
+idx = 0
+while idx < len(heros):
+    print(heros[idx])
+    idx += 1  
