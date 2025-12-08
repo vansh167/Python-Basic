@@ -141,3 +141,7 @@
 # print(collection.union())
 # print(collection.intersection())
 
+i = 5
+while i >= 1 :
+    print("Hi there!", i)
+    i -= 1
