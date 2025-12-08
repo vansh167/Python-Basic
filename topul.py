@@ -55,3 +55,7 @@ print(a)
 grade = ["A","F","B","C","E","D"]
 grade.sort()
 print(grade[2:4])
+# # ============================================tuple=
+
+tup = (92,1,3,1,3,4,5)
+print(tup.count(1))

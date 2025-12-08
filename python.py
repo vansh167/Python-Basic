@@ -142,9 +142,68 @@
 # print(collection.intersection())
 
 
-nums = [1,4,9,16,25,36,49,64,81,100]
-heros = ["Ironman","Thor","Hulk","CaptainAmerica","BlackWidow ","Hawkeye"]
-idx = 0
-while idx < len(heros):
-    print(heros[idx])
-    idx += 1
+# nums = (1,4,9,16,25,36,49,64,81,100)
+# x = int(input("Enter a number to search :"))
+# i = 0 #initionalization
+# while i < len( nums):
+#     if(nums[i] == x):
+#         print("Found at index ", i)
+#     i += 1
+
+# i = 1
+# while i <= 5:
+#     print(i)
+#     if( i == 3):
+#       break
+#     i += 1
+
+# i = 0
+# while i <= 5:
+#     if( i % 2 == 0):
+#         continue
+#     print(i)
+#     i += 1
+
+
+# str = "149162536"
+# for char in str :
+#     print(char)
+# else:
+#     print("Loop is ended")    
+
+# str = "apne college"
+
+# for char in str :
+#     if(char == 'o'):
+#         break
+#     print(char)
+
+
+# num = [ 1,4,9,16,25,36,49,64,81,100]
+# for el in range(1,5,2) :
+
+    
+#     print(el)
+
+# for i in range(3, 100, 1):
+#     print(i)
+
+
+# for i in  range(1,101):
+#  print(i)
+
+# for el in range(10):
+#     pass                                                              #pass
+
+# print("hihhiihiih") 
+n = 78
+sum = 0
+# for i in range( n+1):
+#     sum += i
+
+#     print(sum)
+i=1
+while i <= n:
+    sum += i
+    i += 1 
+print(i)    
