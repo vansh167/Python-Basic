@@ -55,7 +55,7 @@ x = int(input("Enter phy"))
 subjects.update({"phy": x})
 
 x = int(input("Enter chem"))
-subjects.update({"chem": x})
+subjects.update({"chem": x}) 
 
 x = int(input("Enter math"))
 subjects.update({"math": x})
