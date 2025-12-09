@@ -195,15 +195,28 @@
 # for el in range(10):
 #     pass                                                              #pass
 
-# print("hihhiihiih") 
-n = 78
-sum = 0
+# # print("hihhiihiih") 
+# n = 78
+# sum = 0
 # for i in range( n+1):
 #     sum += i
 
 #     print(sum)
-i=1
-while i <= n:
-    sum += i
-    i += 1 
-print(i)    
+# i=1
+# while i <= n:
+#     sum += i
+#     i += 1 
+# print(i)    
+
+countValue = "Vansh dhiman"
+a = countValue.count("a")
+print(a)
+
+# countVelue = "vansh dhiman"
+# target = 'a'
+# countOf = 0
+# for el in countVelue:
+#     if el == target:
+#         countOf += 1
+# print(countOf)        
+    
