@@ -208,9 +208,9 @@
 #     i += 1 
 # print(i)    
 
-countValue = "Vansh dhiman"
-a = countValue.count("a")
-print(a)
+# countValue = "Vansh dhiman"
+# a = countValue.count("a")
+# print(a)
 
 # countVelue = "vansh dhiman"
 # target = 'a'
@@ -220,3 +220,29 @@ print(a)
 #         countOf += 1
 # print(countOf)        
     
+# def sum(a, b):
+#     b = a+b
+#     print(b)
+
+# a =5
+# b = 4
+# sum(a, b)
+print(57+71+64+68+46+58+48)
+print(64+55+87+75+29+25+30+25)
+a = 390
+b = 412
+# b = 55
+# c = 87
+# d = 75
+# e = 29+25
+# f = 30+25
+def calcu(b):
+    sum = b
+    avg = sum/6
+    print(avg)
+    return avg
+
+calcu(b) 
+
+
+print(412/600*100)
