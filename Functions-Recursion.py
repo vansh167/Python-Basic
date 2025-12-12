@@ -29,3 +29,11 @@ def calcu(a,b,c,d,e,f):
     return avg
 
 calcu(a,b,c,d,e,f)  
+
+# ====================================== print Length
+cities = ["delhi", "gurgaon", "noida", "pune", "mumbai", "chennnai"]
+
+def printl(list):
+    print(len(list))
+
+printl(cities)    
