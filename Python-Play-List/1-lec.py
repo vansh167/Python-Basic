@@ -47,3 +47,29 @@
 
 
 # for loop===============================================================
+for row in range(5):                #(0,0,0,0,5)
+    for col in range(row + 1):           #(1,2,3,4)
+        print("*",end="")
+    print()    
+
+n = 5
+for i in range(n, 0, -1):
+    print("*" * i)
+  
+
+data = [10, 20, 30]
+for i, value in enumerate(data):
+    value = value * 2
+    print(i, value)
+
+
+
+n = 5
+
+# upper half
+for i in range(n):
+    print(" " * (n - i - 1) + "*" * (2*i + 1))
+
+# lower half
+for i in range(n-2, -1, -1):
+    print(" " * (n - i - 1) + "*" * (2*i + 1))
