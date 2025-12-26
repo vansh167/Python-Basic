@@ -266,3 +266,40 @@
 # printl(cities)    
 # #
 
+
+# age = input()
+# type(age)
+
+
+
+# a = 10
+# b = 10
+# print(a is b)
+# print(a == b)
+
+
+# a = 250
+# b = 250
+# print(a == b)
+# x = 500
+# y = 500
+# print(x is y)
+
+# if"Ai":
+#     print("yes")
+
+# data = [10, 20, 30, 40, 50, 50 ]
+
+# for x in data:
+#     print(x)
+
+# for i in  range(1,10,2):
+#     print(i)
+
+i = 1
+while i <= 3:
+    print(i)
+    i += 1
+
+for i in range(1,4,1):
+    print(i)    
