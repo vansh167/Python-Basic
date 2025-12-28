@@ -259,9 +259,41 @@
 #     print(a)
 #     a += 1
 
-a = 0
-while a < 10:
-    a += 1
-    if a == 7:
-        break
-    print(a)
+# a = 0
+# while a < 10:
+#     a += 1
+#     if a == 7:
+#         break
+#     print(a)
+
+
+# data = [5, 10, -1, 3, -2, 8, 0, -5]
+
+# positive = 0
+# negative = 0
+
+# i = 0
+# while i < len(data):
+#     if data[i] == 0:
+#         break
+#     elif data[i] > 0:
+#         positive += 1
+#     else:
+#         negative += 1
+#     i += 1
+
+# print("Total Positive:", positive)
+# print("Total Negative:", negative)
+# print("Stopped at zero")
+
+n = 5
+
+# upper half
+for i in range(n):
+    print(" " * (n - i - 1) + "*" * (2*i + 1))
+
+# lower half
+for i in range(n-2, -1, -1):
+    print(" " * (n - i - 1) + "*" * (2*i + 1))
+
+
