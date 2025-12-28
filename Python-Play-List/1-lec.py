@@ -209,29 +209,47 @@
 #         print(i, end= " ")
 #     print()    
 
-data = [3, 7, 10, 0, -4, 8]
-positiveEven =0
-positiveOdd = 0
-zero = 0
-negative = 0
+# data = [3, 7, 10, 0, -4, 8]
+# positiveEven =0
+# positiveOdd = 0
+# zero = 0
+# negative = 0
 
-for d in data:
-    if d > 0  and d % 2 == 0 :
-        positiveEven += 1
-    elif d > 0 and d % 2 != 0:
-        positiveOdd += 1
-    elif d == 0 :                 #
-        zero += 1
-    else:
-        negative += 1
+# for d in data:
+#     if d > 0  and d % 2 == 0 :
+#         positiveEven += 1
+#     elif d > 0 and d % 2 != 0:
+#         positiveOdd += 1
+#     elif d == 0 :                 #
+#         zero += 1
+#     else:
+#         negative += 1
         
-print("Positive even :", positiveEven)    
-print("Positive odd :", positiveOdd)        
-print("zero :", zero)        
-print("negative :", negative)        
+# print("Positive even :", positiveEven)    
+# print("Positive odd :", positiveOdd)        
+# print("zero :", zero)        
+# print("negative :", negative)        
              
 
-k = 1
-while k <= 5:
-    print(k)
-    k += 1
+# k = 1
+# while k <= 5:
+#     print(k)
+#     k += 1
+
+
+
+# =============================================================  While loop 
+
+# i = 1
+# while i <= 10:
+#     if i == 6:
+#        break
+#     print(i)
+#     i += 1
+
+i = 0
+while i < 6:
+    i += 1
+    if i == 3:
+        continue
+    print(i) 
