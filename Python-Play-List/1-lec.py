@@ -144,23 +144,35 @@
 
 # Zero
 
-numbers = [5, 10, 15, 0, -2, -4, 3, 6, -9, 0]
-positive = 0
-negative = 0
-negativeEven = 0
-zero = 0
+# numbers = [5, 10, 15, 0, -2, -4, 3, 6, -9, 0]
+# positive = 0
+# negative = 0
+# negativeEven = 0
+# zero = 0
 
-for n in numbers :
-    if n > 0 and n % 5 == 0:
-         positive += 1
-    elif n > 0 and n % 5 != 0 :
-         negative += 1
-    elif n < 0 and n % 2 == 0 :
-         negativeEven += 1
-    elif n == 0:
-         zero += 1     
-print(positive )
-print(negative)
-print(negativeEven)
-print(zero)
+# for n in numbers :
+#     if n > 0 and n % 5 == 0:
+#          positive += 1
+#     elif n > 0 and n % 5 != 0 :
+#          negative += 1
+#     elif n < 0 and n % 2 == 0 :
+#          negativeEven += 1
+#     elif n == 0:
+#          zero += 1     
+# print(positive )
+# print(negative)
+# print(negativeEven)
+# print(zero) a =5
+# a = 5
+
+# for i in range(1,a):
+#     print(i)
+
+
+
+for i in range(3):                                     #rows
+     for j in range(3):                                  #column
+         print("*", end=" ")
+     print()        
+
 
