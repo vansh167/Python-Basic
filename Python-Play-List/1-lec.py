@@ -176,7 +176,62 @@
 #      print()        
 
 
-for i in range(1,4):
-     for j in range(i):
-        print("*", end=" ")
-     print()   
+# for i in range(1,4):
+#      for j in range(i):
+#         print("*", end=" ")
+#      print()   
+
+# for i in range(1,7):
+#     for j in range(1,i+1):
+#         print(j, end=" ")
+#     print()
+
+
+
+# for i in range(1,2):
+#     for j in range(4):
+#         print(1, end=" ")
+#     print()     
+
+# rows = 5
+# cols = 3
+
+# for r in range(rows):
+#     for c in range(cols):
+#         print(f"Row {r}, Col {c}")
+
+# for i in range(2, 5):
+#     for j in range(1, i):
+#         print(i, j)
+
+# for i in range(1,5):
+#     for j in range(1,i+1):
+#         print(i, end= " ")
+#     print()    
+
+data = [3, 7, 10, 0, -4, 8]
+positiveEven =0
+positiveOdd = 0
+zero = 0
+negative = 0
+
+for d in data:
+    if d > 0  and d % 2 == 0 :
+        positiveEven += 1
+    elif d > 0 and d % 2 != 0:
+        positiveOdd += 1
+    elif d == 0 :                 #
+        zero += 1
+    else:
+        negative += 1
+        
+print("Positive even :", positiveEven)    
+print("Positive odd :", positiveOdd)        
+print("zero :", zero)        
+print("negative :", negative)        
+             
+
+k = 1
+while k <= 5:
+    print(k)
+    k += 1
