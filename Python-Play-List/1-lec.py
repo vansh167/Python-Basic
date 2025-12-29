@@ -267,24 +267,24 @@
 #     print(a)
 
 
-# data = [5, 10, -1, 3, -2, 8, 0, -5]
+data = [5, 10, -1, 3, -2, 8, 0, -5]
 
-# positive = 0
-# negative = 0
+positive = 0
+negative = 0
 
-# i = 0
-# while i < len(data):
-#     if data[i] == 0:
-#         break
-#     elif data[i] > 0:
-#         positive += 1
-#     else:
-#         negative += 1
-#     i += 1
+i = 0
+while i < len(data):
+    if data[i] == 0:
+        break
+    elif data[i] > 0:
+        positive += 1
+    else:
+        negative += 1
+    i += 1
 
-# print("Total Positive:", positive)
-# print("Total Negative:", negative)
-# print("Stopped at zero")
+print("Total Positive:", positive)
+print("Total Negative:", negative)
+print("Stopped at zero")
 
 # n = 5
 

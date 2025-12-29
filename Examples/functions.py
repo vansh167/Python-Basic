@@ -87,11 +87,21 @@
 
 # print(check(24444))
 
-def check(num):
-    count = 0
-    for n in num:
-        if n > 0:
-         count += 1
-    return count    
-data = [1,2,3,4,5,-5,-6,-7,-5]
-print(check(data))
+# def check(num):
+#     count = 0
+#     for n in num:
+#         if n > 0:
+#          count += 1
+#     return count    
+# data = [1,2,3,4,5,-5,-6,-7,-5]
+# print(check(data))
+
+def find_max(nums):
+    max_num = nums[0]
+    for n in nums:
+        if n > max_num:
+            max_num = n
+    return max_num
+data = [3, 8, 1, 6]
+print(find_max(data))
+   
