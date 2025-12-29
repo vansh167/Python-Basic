@@ -46,11 +46,41 @@
 # print(guess(-3))        
 
 
-def negative(neg):
-    count = 0
-    for n in neg:
-        if n < 0:
-            count += 1
-            return count
-nums = [3, -1, 5, 0, 7]        
-print(negative(nums))         
+# def negative(neg):
+#     count = 0
+#     for n in neg:
+#         if n < 0:
+#             count += 1
+#     return count
+# nums = [3, -1, 5, 0, 7]        
+# print(negative(nums))         
+
+
+
+# def check(num):
+#     count = 0
+#     for n in num:
+#         if n == 0:
+#             break
+#         if n > 0 and n % 2 == 0:
+
+#          count += 1
+#     return count
+
+    
+# nums = [4, 6, -2, 0, 8]
+# print(check(nums))
+    
+
+
+
+# =======================================================
+
+
+def check(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+print(check(24444))
