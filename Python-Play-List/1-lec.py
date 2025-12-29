@@ -297,29 +297,35 @@
 #     print(" " * (n - i - 1) + "*" * (2*i + 1))
 
 
-data = [12, -5, 7, 0, 9, -2, 15, 3, -8, 0, 6]
+# data = [12, -5, 7, 0, 9, -2, 15, 3, -8, 0, 6]
 
-positive_even = 0
-positive_odd = 0
+# positive_even = 0
+# positive_odd = 0
 
-i = 0
-while i < len(data):
-    value = data[i]
+# i = 0
+# while i < len(data):
+#     value = data[i]
 
-    if value == 0:
-        break
+#     if value == 0:
+#         break
 
-    if value < 0:
-        i += 1
-        continue
+#     if value < 0:
+#         i += 1
+#         continue
 
-    if value % 2 == 0:
-        positive_even += 1
-    else:
-        positive_odd += 1
+#     if value % 2 == 0:
+#         positive_even += 1
+#     else:
+#         positive_odd += 1
 
-    i += 1
+#     i += 1
 
-print("Positive Even:", positive_even)
-print("Positive Odd:", positive_odd)
-print("Stopped at zero")
+# print("Positive Even:", positive_even)
+# print("Positive Odd:", positive_odd)
+# print("Stopped at zero")
+
+  
+
+def greet(name):
+    print("Hello", name)
+greet("Vansh")    
