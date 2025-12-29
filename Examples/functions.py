@@ -16,3 +16,13 @@
 # result = add(5,5)
 
 # print(result)
+def classify(n):
+    if n > 0 :
+        return "Positive"
+    elif n < 0 :
+        return "Negative"
+    else :
+        return "zero"
+    
+    
+print(classify(22))
