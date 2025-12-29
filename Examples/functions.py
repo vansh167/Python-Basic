@@ -37,10 +37,20 @@
 # nums = [3, -1, 5, 0, 7]
 # print(countp(nums))
 
-def guess(data):
-        if data > 0:
-            return "EVEN"
-        elif data < 0:
-              return "odd"
-print(guess(2)) 
-print(guess(-3))        
+# def guess(data):
+#         if data > 0:
+#             return "EVEN"
+#         elif data < 0:
+#               return "odd"
+# print(guess(2)) 
+# print(guess(-3))        
+
+
+def negative(neg):
+    count = 0
+    for n in neg:
+        if n < 0:
+            count += 1
+            return count
+nums = [3, -1, 5, 0, 7]        
+print(negative(nums))         
