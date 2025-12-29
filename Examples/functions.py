@@ -26,6 +26,8 @@
     
     
 # print(classify(22))
+
+
 # def countp(data):
 #     count = 0
 #     neg = 0
@@ -77,10 +79,19 @@
 # =======================================================
 
 
-def check(num):
-    if num % 2 == 0:
-        return "Even"
-    else:
-        return "Odd"
+# def check(num):
+#     if num % 2 == 0:
+#         return "Even"
+#     else:
+#         return "Odd"
 
-print(check(24444))
+# print(check(24444))
+
+def check(num):
+    count = 0
+    for n in num:
+        if n > 0:
+         count += 1
+    return count    
+data = [1,2,3,4,5,-5,-6,-7,-5]
+print(check(data))
