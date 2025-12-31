@@ -162,20 +162,44 @@
 #             return True
 #         return False
     
-def check_data(nums):
-    even = 0
-    odd = 0
+# def check_data(nums):
+#     even = 0
+#     odd = 0
 
+#     for n in nums:
+#         if n % 2 == 0:
+#             even += 1
+#         else:
+#             odd += 1
+
+#     return even, odd
+
+
+# even, odd = check_data([1,2,3,4,5,6,7,8,9,-7,-6,-5,-4,-3,-2,-1])
+# print("Even:", even)
+# print("Odd:", odd)
+
+# def find(check):
+#     zero = 0
+#     for c in check:
+#         if c == 0:
+#             zero += 1
+#             break
+#         return "Found"
+#     else:
+#         return "Not Found"
+#     return zero
+# zero = find([1,2,3,4,0,6,7,66,4,])
+# print(zero)
+
+
+def find(nums):
     for n in nums:
-        if n % 2 == 0:
-            even += 1
-        else:
-            odd += 1
+        if n == 0:
+            return "Found"
+    return "Not Found"
+print(find([1, 2, 3, 4, 0, 6, 7]))
+print(find([1, 2, 3, 4, 6, 7]))
 
-    return even, odd
 
-
-even, odd = check_data([1,2,3,4,5,6,7,8,9,-7,-6,-5,-4,-3,-2,-1])
-print("Even:", even)
-print("Odd:", odd)
 
