@@ -156,10 +156,26 @@
 
 # part 3> 
 
-def zero(nums):
-    for n in nums:
-        if n == 0:
-            return True
-        return False
+# def zero(nums):
+#     for n in nums:
+#         if n == 0:
+#             return True
+#         return False
     
-   
+def check_data(nums):
+    even = 0
+    odd = 0
+
+    for n in nums:
+        if n % 2 == 0:
+            even += 1
+        else:
+            odd += 1
+
+    return even, odd
+
+
+even, odd = check_data([1,2,3,4,5,6,7,8,9,-7,-6,-5,-4,-3,-2,-1])
+print("Even:", even)
+print("Odd:", odd)
+
