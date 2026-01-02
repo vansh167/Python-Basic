@@ -201,26 +201,53 @@
 # print(find([1, 2, 3, 4, 0, 6, 7]))
 # print(find([1, 2, 3, 4, 6, 7]))
 
-def data(nums):
-    positive = 0
-    negative = 0
-    zero = 0
+# def data(nums):
+#     positive = 0
+#     negative = 0
+#     zero = 0
+
+#     for n in nums:
+#         if n > 0:
+#             positive += 1
+#         elif n < 0:
+#             negative += 1
+#         else:
+#             zero += 1
+
+#     return {
+#         "positive": positive,
+#         "negative": negative,
+#         "zero": zero
+#     }
+# result = data([1,2,3,4,5,6,7,8,-6,-4,-3,-6,-5,0,0])
+# print(result)
+
+# DAY - 3===========================================
+
+# nums = [3, -1, 5, 0, 7]
+# for i in range(len(nums)):                           #============================================================ index for all numbers
+#     print(i, nums[i])
+
+# for n in nums:
+#     print(n) 
+
+# 🧠 PART 4: LIST vs TUPLE vs DICT (INTERVIEW MUST)
+# Feature	List	Tuple	Dict
+# Ordered	✅	✅	❌ (logical order)
+# Changeable	✅	❌	✅
+# Indexed	✅	✅	❌
+# Key-based	❌	❌	✅
+# DS usage	Raw data	Fixed output	Summaries
+
+
+
+def get_positive_numbers(nums):
+    positives = []
 
     for n in nums:
         if n > 0:
-            positive += 1
-        elif n < 0:
-            negative += 1
-        else:
-            zero += 1
+            positives.append(n)
 
-    return {
-        "positive": positive,
-        "negative": negative,
-        "zero": zero
-    }
-result = data([1,2,3,4,5,6,7,8,-6,-4,-3,-6,-5,0,0])
-print(result)
-
-
-
+    return positives
+data = [3, -1, 0, 2, 3, 4, 6, 5, -2]
+print(get_positive_numbers(data))
