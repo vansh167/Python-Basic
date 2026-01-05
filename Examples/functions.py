@@ -279,3 +279,15 @@ def find(num):
     return max, min
 print(min([1,2,3,4,5,-6,-34,-3]))         
 print(max([1,2,3,4,5,-6,-34,-3]))                
+
+
+def get_positive_numbers(nums):
+    positives = []
+
+    for n in nums:
+        if n > 0:
+            positives.append(n)
+
+    return positives
+data = [3, -1, 0, 2, 3, 4, 6, 5, -2]
+print(get_positive_numbers(data))
