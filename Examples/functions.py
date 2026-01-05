@@ -267,57 +267,57 @@
 #     return max_val, min_val
 # print(find_max_min([3, -1, 5, 0, 7]))
 
-def find(num):
-    max = num[0]
-    min = num[0]
+# def find(num):
+#     max = num[0]
+#     min = num[0]
 
-    for n in num:
-        if n > max:
-            max = n
-        if n < min:
-            min = n
-    return max, min
-print(min([1,2,3,4,5,-6,-34,-3]))         
-print(max([1,2,3,4,5,-6,-34,-3]))                
-
-
-def get_positive_numbers(nums):
-    positives = []
-
-    for n in nums:
-        if n > 0:
-            positives.append(n)
-
-    return positives
-data = [3, -1, 0, 2, 3, 4, 6, 5, -2]
-print(get_positive_numbers(data))
+#     for n in num:
+#         if n > max:
+#             max = n
+#         if n < min:
+#             min = n
+#     return max, min
+# print(min([1,2,3,4,5,-6,-34,-3]))         
+# print(max([1,2,3,4,5,-6,-34,-3]))                
 
 
-def find(nums):
-    for n in nums:
-        if n == 0:
-            return "Found"
-    return "Not Found"
-print(find([1, 2, 3, 4, 0, 6, 7]))
-print(find([1, 2, 3, 4, 6, 7]))
+# def get_positive_numbers(nums):
+#     positives = []
 
-def data(nums):
-    positive = 0
-    negative = 0
-    zero = 0
+#     for n in nums:
+#         if n > 0:
+#             positives.append(n)
 
-    for n in nums:
-        if n > 0:
-            positive += 1
-        elif n < 0:
-            negative += 1
-        else:
-            zero += 1
+#     return positives
+# data = [3, -1, 0, 2, 3, 4, 6, 5, -2]
+# print(get_positive_numbers(data))
 
-    return {
-        "positive": positive,
-        "negative": negative,
-        "zero": zero
-    }
-result = data([1,2,3,4,5,6,7,8,-6,-4,-3,-6,-5,0,0])
-print(result)
+
+# def find(nums):
+#     for n in nums:
+#         if n == 0:
+#             return "Found"
+#     return "Not Found"
+# print(find([1, 2, 3, 4, 0, 6, 7]))
+# print(find([1, 2, 3, 4, 6, 7]))
+
+# def data(nums):
+#     positive = 0
+#     negative = 0
+#     zero = 0
+
+#     for n in nums:
+#         if n > 0:
+#             positive += 1
+#         elif n < 0:
+#             negative += 1
+#         else:
+#             zero += 1
+
+#     return {
+#         "positive": positive,
+#         "negative": negative,
+#         "zero": zero
+#     }
+# result = data([1,2,3,4,5,6,7,8,-6,-4,-3,-6,-5,0,0])
+# print(result)
