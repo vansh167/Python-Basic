@@ -241,13 +241,41 @@
 
 
 
-def get_positive_numbers(nums):
-    positives = []
+# def get_positive_numbers(nums):
+#     positives = []
 
-    for n in nums:
-        if n > 0:
-            positives.append(n)
+#     for n in nums:
+#         if n > 0:
+#             positives.append(n)
 
-    return positives
-data = [3, -1, 0, 2, 3, 4, 6, 5, -2]
-print(get_positive_numbers(data))
+#     return positives
+# data = [3, -1, 0, 2, 3, 4, 6, 5, -2]
+# print(get_positive_numbers(data))
+
+
+
+# def find_max_min(nums):
+#     max_val = nums[0]
+#     min_val = nums[0]
+
+#     for n in nums:
+#         if n > max_val:
+#             max_val = n
+#         if n < min_val:
+#             min_val = n
+
+#     return max_val, min_val
+# print(find_max_min([3, -1, 5, 0, 7]))
+
+def find(num):
+    max = num[0]
+    min = num[0]
+
+    for n in num:
+        if n > max:
+            max = n
+        if n < min:
+            min = n
+    return max, min
+print(min([1,2,3,4,5,-6,-34,-3]))         
+print(max([1,2,3,4,5,-6,-34,-3]))                
