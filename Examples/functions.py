@@ -291,3 +291,33 @@ def get_positive_numbers(nums):
     return positives
 data = [3, -1, 0, 2, 3, 4, 6, 5, -2]
 print(get_positive_numbers(data))
+
+
+def find(nums):
+    for n in nums:
+        if n == 0:
+            return "Found"
+    return "Not Found"
+print(find([1, 2, 3, 4, 0, 6, 7]))
+print(find([1, 2, 3, 4, 6, 7]))
+
+def data(nums):
+    positive = 0
+    negative = 0
+    zero = 0
+
+    for n in nums:
+        if n > 0:
+            positive += 1
+        elif n < 0:
+            negative += 1
+        else:
+            zero += 1
+
+    return {
+        "positive": positive,
+        "negative": negative,
+        "zero": zero
+    }
+result = data([1,2,3,4,5,6,7,8,-6,-4,-3,-6,-5,0,0])
+print(result)
