@@ -306,12 +306,12 @@
 
 
 
-def positive(data) :
-    result = []
-    for num in data:
-        if num > 0:
-            result.append(num)
-    return result        
+# def positive(data) :
+#     result = []
+#     for num in data:
+#         if num > 0:
+#             result.append(num)
+#     return result        
 
-data = [3, -1, 0, 5, -2, 7, 0, 9]
-print(positive(data))
+# data = [3, -1, 0, 5, -2, 7, 0, 9]
+# print(positive(data))
