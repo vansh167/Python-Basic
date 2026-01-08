@@ -50,3 +50,33 @@
 # print(dic([1,2,3,445,5,5,56,6,6,6,3]))
 
 
+
+
+# def count(num):
+#     total = 0
+#     neg = 0
+#     for n in num:
+#         if n > 0:
+#             total += 1
+#         elif n < 0:
+#             neg += 1    
+#     return {"total":total,
+#             "Negative":neg}
+        
+# # key = [1, -2, 3, 0, 5]
+
+
+# print(count([1, -2, 3, 0, 5]))
+ 
+
+def count(nums):
+    total = 0
+    for n in nums:
+        if n / 2 == 0:
+            total += 1
+    return n          
+        
+
+key = [1, -2, 3, 0, 5]     
+
+print(count(key))

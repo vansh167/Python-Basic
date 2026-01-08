@@ -339,6 +339,10 @@
 def count(nums):
     total = 0
     for n in nums:
+    
         total += 1
-    return {"total":total}    
-print(count([1,2,3,4,5,6]))
+    return {"total":total}   
+
+key = [1,2,3,4,5,-6,-7,8,9,0]
+
+print(count(key))
