@@ -69,14 +69,30 @@
 # print(count([1, -2, 3, 0, 5]))
  
 
-def count(nums):
-    total = 0
-    for n in nums:
-        if n / 2 == 0:
-            total += 1
-    return n          
+# def count(nums):
+#     total = 0
+#     for n in nums:
+#         if n / 2 == 0:
+#              total += 1
+#     return n          
         
 
-key = [1, -2, 3, 0, 5]     
+# key = [1, -2, 3, 0, 5]     
 
-print(count(key))
+# print(count(key))
+
+
+
+def count(num):
+    total = 0
+    neg = 0 
+    for n in num:
+        if n > 0:
+            total += 1
+        elif n < 0:
+            neg += 1
+    return{
+        "Positive": total,
+        "Negative":neg
+    }           
+print(count([1,2,4,3,5,4,-2,-3,-4,-5])) 
