@@ -324,8 +324,21 @@
 # print("Positive Odd:", positive_odd)
 # print("Stopped at zero")
 
-  
-
+    
 # def greet(name):
 #     print("Hello", name)
 # greet("Vansh")    
+
+
+# for i in range(1, 4):
+#     for j in range(i):
+#         print(i, end=" ")
+
+# def total():
+
+def count(nums):
+    total = 0
+    for n in nums:
+        total += 1
+    return {"total":total}    
+print(count([1,2,3,4,5,6]))
