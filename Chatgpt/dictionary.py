@@ -83,16 +83,19 @@
 
 
 
-def count(num):
-    total = 0
-    neg = 0 
-    for n in num:
-        if n > 0:
-            total += 1
-        elif n < 0:
-            neg += 1
-    return{
-        "Positive": total,
-        "Negative":neg
-    }           
-print(count([1,2,4,3,5,4,-2,-3,-4,-5])) 
+# def count(num):
+#     total = 0
+#     neg = 0 
+#     zero = 0
+#     for n in num:
+#         if n == 0:
+#             zero += 1
+#         elif n > 0:
+#             total += 1
+#         elif n < 0:
+#             neg += 1
+#     return{
+#         "Positive": total,
+#         "Negative":neg,
+#         "Zero":zero
+#     }           
