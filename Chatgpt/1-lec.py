@@ -366,28 +366,33 @@
 
 # print(test([3, 5, -2, 0, 7, 8]))
 # def check(nums):
-#     a = 0     
+#     result = []   
 #     for n in nums:
 #         if n > 0 and n%2==0:
-#             a += 1
-#     return a
-# # listt = [1,2,3,4,5,6,7,8]  
+#             result.append(n)
+#     return result
 # print(check([1, 2, -4, 0, 6, 7] ))          
 
-def check(num):
-    positive = 0
-    negative = 0
-    zero = 0
-    for n in num:
-        if n == 0:
-            zero += 1
-        elif n > 0:
-            positive += 1
-        else:
-            negative += 1
-    return {
-        "Positive":positive,
-        "Negative":negative,
-        "Zero":zero
-    }                
-print(check([1,2,3,4,5,6,-6,-5,-4,-1,0,0]))
+# def check(num):
+#     positive = 0
+#     negative = 0
+#     zero = 0
+#     for n in num:
+#         if n == 0:
+#             zero += 1
+#         elif n > 0:
+#             positive += 1
+#         else:
+#             negative += 1
+#     return {
+#         "Positive":positive,
+#         "Negative":negative,
+#         "Zero":zero
+#     }                
+# print(check([1,2,3,4,5,6,-6,-5,-4,-1,0,0]))
+
+n = 5
+for i in range(1,n+1):
+    for  j in range(1, i+1):
+        print(j, end=" ")
+    print()
