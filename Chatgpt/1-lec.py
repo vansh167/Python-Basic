@@ -397,8 +397,26 @@
 #         print(j, end=" ")
 #     print()
 
-n = 5
-for i in range(1, n+1):
-    for j in range(i):
-        print(i, end=" ")
-    print()    
+# n = 5
+# for i in range(1, n+1):
+#     for j in range(i):
+#         print(i, end=" ")
+#     print()    
+
+
+
+
+
+
+
+
+
+
+
+
+# class students:
+#     def say(self):
+#         print("Hello, I am a student!")
+
+# s = students()         #object
+# s.say()
