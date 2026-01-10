@@ -134,3 +134,22 @@
 # b.show()
 # b.withdraw(200)
 # b.show()
+
+
+# 🚀 NEXT OOPS CHAPTER: INHERITANCE
+
+# This is important because in ML:
+
+# LogisticRegression inherits from base model classes
+
+# fit() / predict() come via inheritance
+
+class Animal:
+    def sound(self):
+        print("Animal sound")
+
+class Dog(Animal):
+    pass
+
+d = Dog()
+d.sound()
