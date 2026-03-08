@@ -29,8 +29,8 @@
 
 # ----------------------------------------------- Loops  --------------------------------------------------------
 
-for i in range(10):
-    print(i)
+# for i in range(10):
+#     print(i)
 
-for bv in range(2,6):
-    print(bv)
+# for bv in range(2,6):
+#     print(bv)
