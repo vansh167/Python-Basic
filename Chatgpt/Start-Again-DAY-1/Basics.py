@@ -34,3 +34,18 @@
 
 # for bv in range(2,6):
 #     print(bv)
+
+# for i in range(5):
+#     print(i)
+
+# =============================================== While ;loop
+
+# i = 55
+# while i <= 60:
+#     print(i)
+#     i = i +1
+
+number = 5
+for i in range(1,11):
+    calculate = number * i
+    print(calculate)
