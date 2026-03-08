@@ -45,7 +45,13 @@
 #     print(i)
 #     i = i +1
 
-number = 5
-for i in range(1,11):
-    calculate = number * i
-    print(calculate)
+# number = 5
+# for i in range(1,11):
+#     calculate = number * i
+#     print(calculate)
+
+# ==================================================== Nested Loop
+
+# for i in range(3):
+#     for j in range(3):
+#         print(i,j)
